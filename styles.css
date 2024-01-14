@@ -1,0 +1,52 @@
+body{
+    background-color: aqua;
+    display: flex;
+    text-align: center;
+}
+#container{
+    background-color: white;
+    margin: auto;
+    box-shadow: 5px 5px 15px;
+    border-radius: 5px;
+    width: 50%;
+    margin-top: 10%;
+}
+h1{
+    color: rgb(46, 113, 229);
+}
+label{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+#temp{
+    text-align: center;
+    border:2px solid black;
+    border-radius: 5px;
+    padding: 5px 5px;
+    font-weight: bold;
+    
+}
+button{
+    font-size: 15px;
+    background-color: rgb(249, 174, 147);
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    
+}
+#result{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 5px;
+    
+    
+}
+#toFahrenheit{
+    margin-top: 10px;
+}
+button:hover{
+    background-color: rgb(248, 126, 81);
+}
